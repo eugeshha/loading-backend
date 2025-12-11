@@ -1,0 +1,19 @@
+{
+  "name": "loading-backend",
+  "version": "1.0.0",
+  "description": "Backend API для Loading Styling проекта",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "eugeshha",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "koa": "^2.15.0",
+    "koa-router": "^12.0.1",
+    "koa-slow": "^2.1.0"
+  }
+}
+
